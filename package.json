@@ -19,6 +19,7 @@
     "@ckeditor/strapi-plugin-ckeditor": "^1.1.1",
     "@strapi/plugin-cloud": "5.13.1",
     "@strapi/plugin-users-permissions": "5.13.1",
+    "@strapi/provider-upload-aws-s3": "^5.29.0",
     "@strapi/strapi": "5.13.1",
     "pg": "8.8.0",
     "react": "^18.0.0",

@@ -516,6 +516,7 @@ export interface ApiBoardBoard extends Struct.CollectionTypeSchema {
           localized: true;
         };
       }>;
+    icon: Schema.Attribute.Media<'images' | 'files' | 'videos' | 'audios'>;
     locale: Schema.Attribute.String;
     localizations: Schema.Attribute.Relation<'oneToMany', 'api::board.board'>;
     name: Schema.Attribute.String &
